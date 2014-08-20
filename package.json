@@ -1,0 +1,24 @@
+{
+  "name": "rkick",
+  "version": "0.0.1",
+  "description": "a sidekick for remote development",
+  "bin": {
+    "rkick": "rkick.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcarrell/rkick"
+  },
+  "author": "Brandon Carrell <brandoncarrell@gmail.com> (http://bcarrell.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcarrell/rkick/issues"
+  },
+  "homepage": "https://github.com/bcarrell/rkick",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "gaze": "^0.6.4",
+    "lodash": "^2.4.1",
+    "rsync": "^0.3.0"
+  }
+}
