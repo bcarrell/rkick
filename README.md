@@ -1,6 +1,6 @@
 # rkick
 
-    npm install rkick
+    npm install -g rkick
 
 rkick is a helper to solve a common problem with remote development workflows (especially with vim).  Your
 development environment works great on your local machine, but when you need to work off a remote host, it falls apart.
