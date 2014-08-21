@@ -34,7 +34,7 @@ if (cli.push) {
     if (err) throw err;
 
     watcher.on('all', _.debounce(function() {
-      console.log('Change detected!');
+      console.log('\nChange detected!');
       sync();
     }, 200));
 
@@ -49,7 +49,7 @@ function rsync(src, dest) {
     .destination(dest);
 
   return function() {
-    console.log('\n' + src + ' => ' + dest);
+    console.log(src + ' => ' + dest);
     console.log('Syncing...');
     rsync.execute(function(err) {
       if (err) throw err;
