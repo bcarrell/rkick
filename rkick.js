@@ -49,7 +49,7 @@ function rsync(src, dest) {
     .destination(dest);
 
   return function() {
-    console.log(src + ' => ' + dest + '\n');
+    console.log('\n' + src + ' => ' + dest);
     console.log('Syncing...');
     rsync.execute(function(err) {
       if (err) throw err;
